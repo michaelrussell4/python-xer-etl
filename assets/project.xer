@@ -1,0 +1,252 @@
+ERMHDR	6.2	2012-02-07	Project	admin	admin	dbxDatabaseNoName	Project Management	USD
+%T	CURRTYPE
+%F	curr_id	decimal_digit_cnt	curr_symbol	decimal_symbol	digit_group_symbol	pos_curr_fmt_type	neg_curr_fmt_type	curr_type	curr_short_name	group_digit_cnt	base_exch_rate
+%R	1	2	$	.	,	#1.1	(#1.1)	US Dollar	USD	3	1
+%R	13	2	£	.	,	#1.1	(#1.1)	Pound Sterling	GBP	3	0.618603
+%R	14	2	¥	.	,	#1.1	(#1.1)	Japanese Yen	JPY	3	91.2708
+%R	15	2	€	.	,	#1.1	(#1.1)	Euro	EUR	3	0.689711
+%R	16	2	¥	.	,	#1.1	(#1.1)	Chinese Yuan Renminbi	CNY	3	6.82502
+%R	17	2	$	.	,	#1.1	(#1.1)	Canadian Dollar	CAD	3	1.03757
+%R	18	2	RUB	.	,	#1.1	(#1.1)	Russian Ruble	RUB	3	0.033948
+%R	19	2	$	.	,	#1.1	(#1.1)	Argentine Peso	ARS	3	3.79109
+%R	20	2	$b	.	,	#1.1	(#1.1)	Bolivian Boliviano	BOB	3	7.5708
+%R	21	2	R$	,	.	#1.1	(#1.1)	Brazilian Real	BRL	3	1.7665
+%R	22	2	$	.	,	#1.1	(#1.1)	Chilean Peso	CLP	3	507.58
+%R	23	2	$	.	,	#1.1	(#1.1)	Columbian Peso	COP	3	1957.74
+%R	24	2	$	.	,	#1.1	(#1.1)	Guyanese Dollar	GYD	3	202.95
+%R	25	2	Gs	.	,	#1.1	(#1.1)	Paraguayan Guarani	PYG	3	4640
+%R	26	2	S/.	.	,	#1.1	(#1.1)	Peruvian Nuevo Sol	PEN	3	2.7244
+%R	27	2	$	.	,	#1.1	(#1.1)	Surinamese Dollar	SRD	3	2.8
+%R	28	2	Bs	.	,	#1.1	(#1.1)	Venezuelan Bolivar Fuerto	VEF	3	2.1446
+%R	29	2	$U	.	,	#1.1	(#1.1)	Uruguayan Peso	UYU	3	21.247
+%T	OBS
+%F	obs_id	parent_obs_id	guid	seq_num	obs_name	obs_descr
+%R	540			0	Enterprise	<html>  <head>      </head>  <body bgcolor=""#ffffff"">    Enterprise  </body></html>
+%T	POBS
+%F	pobs_id	pobs_parent_id	seq_num	pobs_name	pobs_descr	pobs_manager
+%R	100		0	POBS_Root	Performing Organization_Root	
+%R	101	100	0	P	Performing Organization	
+%R	102	100	100	P-1	Performing Organization	
+%R	103	100	200	P-2	Performing Organization	
+%R	104	100	300	P-3	Performing Organization	
+%R	105	100	400	P-4	Performing Organization	
+%R	106	100	500	P-5	Performing Organization	
+%R	107	100	600	P-6	Performing Organization	
+%R	108	100	0	?><,./;'[]\=-`	?><,./;'[]\=-`	?><,./;'[]\=-`
+%R	109	100	0	?&gt;&lt;,./;'[]\=-`	?&gt;&lt;,./;'[]\=-`	?&gt;&lt;,./;'[]\=-`
+%T	UDFTYPE
+%F	udf_type_id	table_name	udf_type_name	udf_type_label	logical_data_type	super_flag	indicator_expression	summary_indicator_expression
+%R	3120	TASK	user_field_3120	PMS_ID	FT_TEXT	N		
+%R	3121	TASK	user_field_3121	REV	FT_TEXT	N		
+%R	3223	TASK	user_field_3223	SCOPE_ID	FT_TEXT	N		
+%T	PROJECT
+%F	proj_id	fy_start_month_num	rsrc_self_add_flag	allow_complete_flag	rsrc_multi_assign_flag	checkout_flag	project_flag	step_complete_flag	cost_qty_recalc_flag	batch_sum_flag	name_sep_char	def_complete_pct_type	proj_short_name	acct_id	orig_proj_id	source_proj_id	base_type_id	clndr_id	sum_base_proj_id	task_code_base	task_code_step	priority_num	wbs_max_sum_level	strgy_priority_num	last_checksum	critical_drtn_hr_cnt	def_cost_per_qty	last_recalc_date	plan_start_date	plan_end_date	scd_end_date	add_date	last_tasksum_date	fcst_start_date	def_duration_type	task_code_prefix	guid	def_qty_type	add_by_name	web_local_root_path	proj_url	def_rate_type	add_act_remain_flag	act_this_per_link_flag	def_task_type	act_pct_link_flag	critical_path_type	task_code_prefix_flag	def_rollup_dates_flag	use_project_baseline_flag	rem_target_link_flag	reset_planned_flag	allow_neg_act_flag	sum_assign_level	last_fin_dates_id	last_baseline_update_date	cr_external_key	apply_actuals_date	loaded_scope_level	export_flag	new_fin_dates_id	next_data_date	close_period_flag	sum_refresh_date	trsrcsum_loaded
+%R	7220	1	Y	Y	Y	N	Y	N	N	Y	.	CP_Drtn	Baseline					6205		1000	10	10	2	500		0	0.00	2012-01-01 00:00	2012-01-01 00:00		2013-02-20 18:00	2012-01-20 16:23			DT_FixedDUR2	A	ct/gj8YZReu08mrWMEPtVA	QT_Hour	admin			COST_PER_QTY	N	Y	TT_Task	Y	CT_TotFloat	Y	Y	Y	Y	N	N	SL_Taskrsrc					7	Y				1899-12-30 00:00	
+%T	CALENDAR
+%F	clndr_id	default_flag	clndr_name	proj_id	base_clndr_id	last_chng_date	clndr_type	day_hr_cnt	week_hr_cnt	month_hr_cnt	year_hr_cnt	rsrc_private	clndr_data
+%R	6205	Y	7x24			2012-01-23 00:00	CA_Base	24	168	660	8030	N	(0||CalendarData()(  (0||DaysOfWeek()(    (0||1()(      (0||0(s|00:00|f|00:00)())))    (0||2()(      (0||0(s|00:00|f|00:00)())))    (0||3()(      (0||0(s|00:00|f|00:00)())))    (0||4()(      (0||0(s|00:00|f|00:00)())))    (0||5()(      (0||0(s|00:00|f|00:00)())))    (0||6()(      (0||0(s|00:00|f|00:00)())))    (0||7()(      (0||0(s|00:00|f|00:00)())))))  (0||VIEW(ShowTotal|Y)())  (0||Exceptions()(    (0||0(d|36982)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||1(d|36983)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||2(d|36984)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||3(d|36985)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||4(d|36986)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||5(d|36987)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||6(d|36988)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||7(d|36989)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||8(d|36990)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||9(d|36991)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||10(d|36992)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||11(d|36993)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||12(d|36994)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||13(d|36995)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||14(d|36996)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||15(d|36997)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||16(d|36998)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||17(d|36999)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||18(d|37000)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||19(d|37001)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||20(d|37002)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||21(d|37003)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||22(d|37004)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||23(d|37005)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||24(d|37006)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||25(d|37007)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||26(d|37008)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||27(d|37009)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||28(d|37010)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||29(d|37011)(      (0||0(s|08:00|f|12:00)())      (0||1(s|13:00|f|17:00)())))    (0||30(d|40179)())    (0||31(d|40329)())    (0||32(d|40364)())    (0||33(d|40427)())    (0||34(d|40507)())    (0||35(d|40536)())    (0||36(d|40543)())    (0||37(d|40693)())    (0||38(d|40728)())    (0||39(d|40791)())    (0||40(d|40871)())    (0||41(d|40903)())    (0||42(d|40910)())    (0||43(d|41057)())    (0||44(d|41094)())    (0||45(d|41155)())    (0||46(d|41235)())    (0||47(d|41268)())    (0||48(d|41275)())    (0||49(d|41421)())    (0||50(d|41459)())    (0||51(d|41519)())    (0||52(d|41606)())    (0||53(d|41633)())))))
+%T	SCHEDOPTIONS
+%F	schedoptions_id	proj_id	sched_outer_depend_type	sched_open_critical_flag	sched_lag_early_start_flag	sched_retained_logic	sched_setplantoforecast	sched_float_type	sched_calendar_on_relationship_lag	sched_use_expect_end_flag	sched_progress_override	level_float_thrs_cnt	level_outer_assign_flag	level_outer_assign_priority	level_over_alloc_pct	level_within_float_flag	level_keep_sched_date_flag	level_all_rsrc_flag	sched_use_project_end_date_for_float	enable_multiple_longest_path_calc	limit_multiple_longest_path_calc	max_multiple_longest_path	use_total_float_multiple_longest_paths	key_activity_for_multiple_longest_paths	LevelPriorityList
+%R	1	7220	SD_Both	N	Y	Y	N	FT_FF	rcal_Predecessor	Y	N	0	N	5	25	N	Y	Y	Y	N	Y	10	Y		priority_type,ASC
+%T	PROJWBS
+%F	wbs_id	proj_id	obs_id	seq_num	proj_node_flag	sum_data_flag	status_code	wbs_short_name	wbs_name	phase_id	parent_wbs_id	ev_user_pct	ev_etc_user_value	orig_cost	indep_remain_total_cost	ann_dscnt_rate_pct	dscnt_period_type	indep_remain_work_qty	anticip_start_date	anticip_end_date	ev_compute_type	ev_etc_compute_type	guid	tmpl_guid	plan_open_state
+%R	41403	7220	540	401	Y	N	WS_Open	Baseline	Project		40695	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	BE/df13MQIG99tOj7r5I4g		
+%R	41405	7220	540	108	N	N	WS_Open	09	START UP		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	AnJNTrK2RaSzlkAVxYH/BA		
+%R	41406	7220	540	100	N	N	WS_Open	01	MILESTONES		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	ntyx3OenTbmGLqtBgusMdw		
+%R	41407	7220	540	101	N	N	WS_Open	02	MANAGEMENT		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	rf+4AT6nSoKdxZCOE6p5tw		
+%R	41408	7220	540	102	N	N	WS_Open	03	GENERAL		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	g7NPa79HTd2eIyzue0hisw		
+%R	41409	7220	540	103	N	N	WS_Open	04	ENGINEERING		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	kdeLffvST5uAN5423Nw5jw		
+%R	41410	7220	540	302	N	N	WS_Open	01	CIVIL		41409	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	QKS3g9BfSpCmeTifDkbQdg		
+%R	41411	7220	540	402	N	N	WS_Open	02	STRUCTURAL		41409	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	JIr6FJFYQQaoKaQJUWA4WQ		
+%R	41412	7220	540	502	N	N	WS_Open	03	MECHANICAL		41409	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	YNahedkBQQ6I8ivkEZeXfw		
+%R	41413	7220	540	602	N	N	WS_Open	04	PIPING		41409	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	sdyQX/8VTGaiYVLwI9XA8g		
+%R	41414	7220	540	702	N	N	WS_Open	05	ELECTRICAL		41409	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	hKkOzzJBTNuEaXUNlJZZWQ		
+%R	41415	7220	540	802	N	N	WS_Open	06	INSTRUMENTATION		41409	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	uAULAh1cRRyLn3gdskRQHA		
+%R	41416	7220	540	104	N	N	WS_Open	05	PROCUREMENT		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	rZcO+JD3TCeSwdyGincCPA		
+%R	41417	7220	540	404	N	N	WS_Open	03	BULK MATERIAL		41416	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	S768MLr8ReG0s8DMoc/s+w		
+%R	41418	7220	540	403	N	N	WS_Open	02	ITEMIZED EQUIPEMENT		41416	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	nwLENoqcRO6wl46asnUkXg		
+%R	41419	7220	540	303	N	N	WS_Open	01	LONG LEAD		41416	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	CzwcvjkYSsyw4nBJeDpyEw		
+%R	41420	7220	540	105	N	N	WS_Open	06	CONSTRUCTION		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	Yv55zsJXTFuioYpOTmsT7g		
+%R	41421	7220	540	403	N	N	WS_Open	01	GENERAL		41420	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	up0UUc2RThqzhJ6bOazm4Q		
+%R	41422	7220	540	404	N	N	WS_Open	01	GENERAL AREA		41421	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	0gkWCCMKSX2RS/jB979KMA		
+%R	41423	7220	540	0	N	N	WS_Open	01	CIVIL		41422	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	xjMX4FG4QW2EEy2IR2sWLg	pmizbO2iu0Kx2bQ7yteI2g	
+%R	41424	7220	540	1	N	N	WS_Open	02	STRUCTURAL		41422	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	Vcjt3fBzQCuJWZG1KDSTRQ	xuaVrxRdgEqzzbAEWS45xw	
+%R	41425	7220	540	2	N	N	WS_Open	03	MECHANICAL		41422	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	ir3MiJhiT/exCA6paAq1Bg	BDCuqt8ZA0CLXAJrq/Eo4g	
+%R	41426	7220	540	3	N	N	WS_Open	04	PIPING		41422	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	Ijf/P7BhQ4GEHzm8GTLlLA	H1wsTFhjK0eaw73OMdJuMA	
+%R	41427	7220	540	4	N	N	WS_Open	05	ELECTRICAL		41422	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	ZxBav+UEQS+Z0/n16eEI3w	Fc31TSM09EauIjkVeeT0cg	
+%R	41428	7220	540	5	N	N	WS_Open	06	INSTRUMENTATION		41422	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	UZGxgAMeSt6yKy89KjEURQ	oDRUWwgawkK488e7dQ+nCQ	
+%R	41429	7220	540	503	N	N	WS_Open	02	PROCESS		41420	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	WO4kHRJNQXu0Irba+sVcAA		
+%R	41430	7220	540	504	N	N	WS_Open	01	MAIN PUMPS AREA		41429	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	j8n6B5/4RGqWf8/e2z7cWw		
+%R	41431	7220	540	0	N	N	WS_Open	01	PUMP 01-PR-02		41430	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	zP4+AZDOQNuU2KS9oaDZZQ		
+%R	41432	7220	540	0	N	N	WS_Open	01	CIVIL		41431	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	U1jmP9+xQ/u+jlv2CrewaQ	dD1cyHIAzEe+onqZ8J1TYA	
+%R	41433	7220	540	1	N	N	WS_Open	02	STRUCTURAL		41431	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	aaEaU9ALTcGGI3yhBzLE9g	jes/gGMECEqbPZ9KsmShDw	
+%R	41434	7220	540	2	N	N	WS_Open	03	MECHANICAL		41431	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	uSKpIujXQ3KNts88575aIA	Kaab4Uk1k0CPL4EKND2wtg	
+%R	41435	7220	540	3	N	N	WS_Open	04	PIPING		41431	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	dSulAkZfRmeAJpvP1SJxLg	RIrqB/SM5EmMMXT8nfAmeA	
+%R	41436	7220	540	4	N	N	WS_Open	05	ELECTRICAL		41431	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	zKu1MdHYSFq9+rk5uVCfog	CVblnP2iB06kDNGGq3RyAQ	
+%R	41437	7220	540	5	N	N	WS_Open	06	INSTRUMENTATION		41431	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	LTmn44oeRG2rCYqzYYOW6g	OYPLNtiUPEmrGy8S5KHdRQ	
+%R	41438	7220	540	1	N	N	WS_Open	02	PUMP 01-PR-03		41430	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	rb0q59gxSUS/Jo89uwoyxg	FJ+yLuRkkUGu6LQvZs5raw	
+%R	41439	7220	540	1	N	N	WS_Open	02	STRUCTURAL		41438	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	dQvrLLAMRDOLJo3cAewCOw	xuaVrxRdgEqzzbAEWS45xw	
+%R	41440	7220	540	2	N	N	WS_Open	03	MECHANICAL		41438	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	gl3P0IKES5ib0OURvwzj8g	BDCuqt8ZA0CLXAJrq/Eo4g	
+%R	41441	7220	540	3	N	N	WS_Open	04	PIPING		41438	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	oeg29ehGSoSVH/SuZR67pA	H1wsTFhjK0eaw73OMdJuMA	
+%R	41442	7220	540	4	N	N	WS_Open	05	ELECTRICAL		41438	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	wXbS+JO2TIS3nKW7srXtMA	Fc31TSM09EauIjkVeeT0cg	
+%R	41443	7220	540	5	N	N	WS_Open	06	INSTRUMENTATION		41438	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	zA9dr0CkTb21bi67MFcjHw	oDRUWwgawkK488e7dQ+nCQ	
+%R	41444	7220	540	0	N	N	WS_Open	01	CIVIL		41438	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	ig8hMUEqQfmKvn4Y0WIUiw	pmizbO2iu0Kx2bQ7yteI2g	
+%R	41445	7220	540	2	N	N	WS_Open	03	PUMP 01-PR-04		41430	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	3VHQoXRgTlywc1QnbjMPhA	hJKTjEjPtEeEH4KUPuDUOA	
+%R	41446	7220	540	0	N	N	WS_Open	01	CIVIL		41445	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	6aI/PFyXTYOsDTZBtsm79w	pmizbO2iu0Kx2bQ7yteI2g	
+%R	41447	7220	540	1	N	N	WS_Open	02	STRUCTURAL		41445	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	fb8wOpILTzSDi4ObheXv+Q	xuaVrxRdgEqzzbAEWS45xw	
+%R	41448	7220	540	2	N	N	WS_Open	03	MECHANICAL		41445	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	yXsqSBN6TZGxLMoPQv38mg	BDCuqt8ZA0CLXAJrq/Eo4g	
+%R	41449	7220	540	3	N	N	WS_Open	04	PIPING		41445	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	njeLDMcjSG+ZOIcVjwnyng	H1wsTFhjK0eaw73OMdJuMA	
+%R	41450	7220	540	4	N	N	WS_Open	05	ELECTRICAL		41445	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	YFFhE+p3SlG47Kkc72kp1w	Fc31TSM09EauIjkVeeT0cg	
+%R	41451	7220	540	5	N	N	WS_Open	06	INSTRUMENTATION		41445	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	K0LggJ2TSoq2cJbpxnlIxQ	oDRUWwgawkK488e7dQ+nCQ	
+%R	41452	7220	540	2	N	N	WS_Open	04	PUMP 01-PR-05		41430	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	lApBy5NMSTeNbT3cTaLgkw	FJ+yLuRkkUGu6LQvZs5raw	
+%R	41453	7220	540	0	N	N	WS_Open	01	CIVIL		41452	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	SplBFMbzSFyOo7cUvXXbIg	pmizbO2iu0Kx2bQ7yteI2g	
+%R	41454	7220	540	1	N	N	WS_Open	02	STRUCTURAL		41452	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	QGvRvqvaRfG1AK7RFN/Aug	xuaVrxRdgEqzzbAEWS45xw	
+%R	41455	7220	540	2	N	N	WS_Open	03	MECHANICAL		41452	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	T7zW+5weRpmzBkf5HMocuQ	BDCuqt8ZA0CLXAJrq/Eo4g	
+%R	41456	7220	540	3	N	N	WS_Open	04	PIPING		41452	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	mI6TJJFNSNWscmsp+sszkQ	H1wsTFhjK0eaw73OMdJuMA	
+%R	41457	7220	540	4	N	N	WS_Open	05	ELECTRICAL		41452	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	tRV5ABYzRwy7ThAj5soBLA	Fc31TSM09EauIjkVeeT0cg	
+%R	41458	7220	540	5	N	N	WS_Open	06	INSTRUMENTATION		41452	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	14ZHBM3hSbW/szAPyegmPg	oDRUWwgawkK488e7dQ+nCQ	
+%R	41459	7220	540	606	N	N	WS_Open	02	PIPERACK AREA		41429	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	UGXxXURtQ9qnBqaJGkgsdg		
+%R	41460	7220	540	703	N	N	WS_Open	04	TANK FARM		41420	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	x0ppqsJxSBuNcpd4SA3yNA		
+%R	41461	7220	540	603	N	N	WS_Open	03	UTILITIES		41420	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	Aj5cEhKHQWiwtqfm9GkOxg		
+%R	41462	7220	540	106	N	N	WS_Open	07	PRECOMMISSIONING		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	Z/sgp2RGRg+uHD8VtW839w		
+%R	41463	7220	540	107	N	N	WS_Open	08	COMMISSIONING		41403	6	0.88	0.00	0.00						EC_Cmp_pct	EE_PF_1	aBnrs4dqR5yoLo9atGQUTg		
+%T	TASK
+%F	task_id	proj_id	wbs_id	clndr_id	phys_complete_pct	rev_fdbk_flag	lock_plan_flag	auto_compute_act_flag	complete_pct_type	task_type	duration_type	status_code	task_code	task_name	rsrc_id	total_float_hr_cnt	free_float_hr_cnt	remain_drtn_hr_cnt	act_work_qty	remain_work_qty	target_work_qty	target_drtn_hr_cnt	target_equip_qty	act_equip_qty	remain_equip_qty	cstr_date	act_start_date	act_end_date	late_start_date	late_end_date	expect_end_date	early_start_date	early_end_date	restart_date	reend_date	target_start_date	target_end_date	rem_late_start_date	rem_late_end_date	cstr_type	priority_type	suspend_date	resume_date	float_path	float_path_order	guid	tmpl_guid	cstr_date2	cstr_type2	driving_path_flag	act_this_per_work_qty	act_this_per_equip_qty	external_early_start_date	external_late_end_date	create_date	update_date	create_user	update_user
+%R	185546	7220	41410	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	20	CIVIL WORKS GENERAL LAYOUT		4956	0	330	0	6000	6000	330	0	0	0				2012-07-28 12:00	2012-08-11 06:00		2012-01-01 00:00	2012-01-15 18:00	2012-01-01 00:00	2012-01-15 18:00	2012-01-01 00:00	2012-01-15 18:00	2012-07-28 12:00	2012-08-11 06:00		PT_Normal					f1bgp980Tg+eYPuzTVo09A				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185547	7220	41419	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	21	Pump -  Request for Quotation		4956	0	719	0	0	0	719	0	0	0				2012-08-11 06:00	2012-09-11 05:00		2012-01-15 18:00	2012-02-14 17:00	2012-01-15 18:00	2012-02-14 17:00	2012-01-15 18:00	2012-02-14 17:00	2012-08-11 06:00	2012-09-11 05:00		PT_Normal					VIcZbF8KTs6s2g7L0ZOPsA				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185548	7220	41419	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	22	Pump -  Bidding Phase		4956	0	167	0	0	0	167	0	0	0				2012-09-11 05:00	2012-09-18 04:00		2012-02-14 17:00	2012-02-21 16:00	2012-02-14 17:00	2012-02-21 16:00	2012-02-14 17:00	2012-02-21 16:00	2012-09-11 05:00	2012-09-18 04:00		PT_Normal					aqWg4cLsS8CFueTTACNH6A				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185549	7220	41419	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	23	Pump -  Commercial Evaluation		4956	0	335	0	0	0	335	0	0	0				2012-09-18 04:00	2012-10-02 03:00		2012-02-21 16:00	2012-03-06 15:00	2012-02-21 16:00	2012-03-06 15:00	2012-02-21 16:00	2012-03-06 15:00	2012-09-18 04:00	2012-10-02 03:00		PT_Normal					SUQrjSXVRXqRslanuLzoNA				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185550	7220	41419	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	24	Pump -  Purchase Order		4956	0	599	0	0	0	599	0	0	0				2012-10-02 03:00	2012-10-27 02:00		2012-03-06 15:00	2012-03-31 14:00	2012-03-06 15:00	2012-03-31 14:00	2012-03-06 15:00	2012-03-31 14:00	2012-10-02 03:00	2012-10-27 02:00		PT_Normal					uQPk00KlSByD3GvtQ6EZ6A				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185551	7220	41419	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	25	Pump -  Manufacturing		4956	0	1439	0	0	0	1439	0	0	0				2012-10-27 02:00	2012-12-28 01:00		2012-03-31 14:00	2012-05-31 13:00	2012-03-31 14:00	2012-05-31 13:00	2012-03-31 14:00	2012-05-31 13:00	2012-10-27 02:00	2012-12-28 01:00		PT_Normal					wqyJU89aT0KaNBeTSuroBg				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185552	7220	41419	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	26	Pump -  Transport to Site		4956	0	959	0	0	0	959	0	0	0				2012-12-28 01:00	2013-02-07 00:00		2012-05-31 13:00	2012-07-11 12:00	2012-05-31 13:00	2012-07-11 12:00	2012-05-31 13:00	2012-07-11 12:00	2012-12-28 01:00	2013-02-07 00:00		PT_Normal					EdGyF8++Q3ip15BLEOrrGA				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185553	7220	41423	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	17	Top soil removal		0	0	660	0	33.326526	33.326526	660	0	0	0				2012-11-13 12:00	2012-12-12 00:00		2012-11-13 12:00	2012-12-12 00:00	2012-11-13 12:00	2012-12-12 00:00	2012-11-13 12:00	2012-12-12 00:00	2012-11-13 12:00	2012-12-12 00:00		PT_Normal					hpsSiD9wS9OIhCKJXb2eQQ				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185554	7220	41423	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	18	GENERAL EXCAVATIONS		0	0	330	0	81.061399	81.061399	330	0	0	0				2012-12-12 00:00	2012-12-26 18:00		2012-12-12 00:00	2012-12-26 18:00	2012-12-12 00:00	2012-12-26 18:00	2012-12-12 00:00	2012-12-26 18:00	2012-12-12 00:00	2012-12-26 18:00		PT_Normal					JqwLx5D9Q5WdoBj5vtj3yg				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185555	7220	41423	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	19	General backfil. of area/roads		0	0	1320	0	119.545191	119.545191	1320	0	0	0				2012-12-26 18:00	2013-02-20 18:00		2012-12-26 18:00	2013-02-20 18:00	2012-12-26 18:00	2013-02-20 18:00	2012-12-26 18:00	2013-02-20 18:00	2012-12-26 18:00	2013-02-20 18:00		PT_Normal					76uLGlfNTI+w/VAa3k8QUw				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185556	7220	41432	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	1	Foundation Civil Works		0	0	660	0	5957.12259	5957.12259	660	0	0	0				2012-01-01 00:00	2012-01-29 12:00		2012-01-01 00:00	2012-01-29 12:00	2012-01-01 00:00	2012-01-29 12:00	2012-01-01 00:00	2012-01-29 12:00	2012-01-01 00:00	2012-01-29 12:00		PT_Normal					F1nHPFZzTNe1KIfr1+34gA				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185557	7220	41434	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	2	EREC.OF ASSEMBLED MACHINERY		0	0	660	0	37.643889	37.643889	660	0	0	0				2012-01-29 12:00	2012-02-26 00:00		2012-01-29 12:00	2012-02-26 00:00	2012-01-29 12:00	2012-02-26 00:00	2012-01-29 12:00	2012-02-26 00:00	2012-01-29 12:00	2012-02-26 00:00		PT_Normal					cuGlt87+QuazoD/fKmoDdQ				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185558	7220	41435	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	3	INSUL.OF HOT & TRACED EQUIPM.		0	0	330	0	1250	1250	330	0	0	0				2012-02-26 00:00	2012-03-10 18:00		2012-02-26 00:00	2012-03-10 18:00	2012-02-26 00:00	2012-03-10 18:00	2012-02-26 00:00	2012-03-10 18:00	2012-02-26 00:00	2012-03-10 18:00		PT_Normal					uGFEQwc2SYy+GqFT07V2lA				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185559	7220	41435	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	4	FIN.COAT FOR MACH./MEC.LIFTING		0	0	110	0	285.714286	285.714286	110	0	0	0				2012-03-10 18:00	2012-03-15 08:00		2012-03-10 18:00	2012-03-15 08:00	2012-03-10 18:00	2012-03-15 08:00	2012-03-10 18:00	2012-03-15 08:00	2012-03-10 18:00	2012-03-15 08:00		PT_Normal					IYZ6ulUyQFmjwM15AUUFBg				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185560	7220	41444	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	5	Foundation Civil Works		0	0	660	0	5957.12259	5957.12259	660	0	0	0				2012-03-15 08:00	2012-04-11 20:00		2012-03-15 08:00	2012-04-11 20:00	2012-03-15 08:00	2012-04-11 20:00	2012-03-15 08:00	2012-04-11 20:00	2012-03-15 08:00	2012-04-11 20:00		PT_Normal					DzbUBvooQJuzZUB8O5hU/g				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185561	7220	41440	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	6	EREC.OF ASSEMBLED MACHINERY		0	0	330	0	37.643889	37.643889	330	0	0	0				2012-04-11 20:00	2012-04-25 14:00		2012-04-11 20:00	2012-04-25 14:00	2012-04-11 20:00	2012-04-25 14:00	2012-04-11 20:00	2012-04-25 14:00	2012-04-11 20:00	2012-04-25 14:00		PT_Normal					YILqr3CTRE2ie/TAFwnS8A				Y	0	0			2012-01-20 16:23	2012-02-06 09:05	admin	admin
+%R	185562	7220	41441	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	7	INSUL.OF HOT & TRACED EQUIPM.		0	0	660	0	1250	1250	660	0	0	0				2012-04-25 14:00	2012-05-23 02:00		2012-04-25 14:00	2012-05-23 02:00	2012-04-25 14:00	2012-05-23 02:00	2012-04-25 14:00	2012-05-23 02:00	2012-04-25 14:00	2012-05-23 02:00		PT_Normal					UxWxWkC2TsOrTdk2oU0IrA				Y	0	0			2012-01-20 16:23	2012-02-06 09:05	admin	admin
+%R	185563	7220	41441	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	8	FIN.COAT FOR MACH./MEC.LIFTING		0	0	154	0	285.714286	285.714286	154	0	0	0				2012-05-23 02:00	2012-05-30 12:00		2012-05-23 02:00	2012-05-30 12:00	2012-05-23 02:00	2012-05-30 12:00	2012-05-23 02:00	2012-05-30 12:00	2012-05-23 02:00	2012-05-30 12:00		PT_Normal					Qc7OxNbuTwWvJrsW5nx7cg				Y	0	0			2012-01-20 16:23	2012-02-06 09:05	admin	admin
+%R	185564	7220	41446	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	9	Foundation Civil Works		0	0	660	0	5957.12259	5957.12259	660	0	0	0				2012-05-30 12:00	2012-06-27 00:00		2012-05-30 12:00	2012-06-27 00:00	2012-05-30 12:00	2012-06-27 00:00	2012-05-30 12:00	2012-06-27 00:00	2012-05-30 12:00	2012-06-27 00:00		PT_Normal					hFAeGfAuQwibfRIxNPx2tw				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185565	7220	41448	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	10	EREC.OF ASSEMBLED MACHINERY		0	0	330	0	37.643889	37.643889	330	0	0	0				2012-06-27 00:00	2012-07-11 18:00		2012-06-27 00:00	2012-07-11 18:00	2012-06-27 00:00	2012-07-11 18:00	2012-06-27 00:00	2012-07-11 18:00	2012-06-27 00:00	2012-07-11 18:00		PT_Normal					AUnfEkDuTNGqtgvodZ6WxA				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185566	7220	41449	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	11	INSUL.OF HOT & TRACED EQUIPM.		0	0	660	0	1250	1250	660	0	0	0				2012-07-11 18:00	2012-08-08 06:00		2012-07-11 18:00	2012-08-08 06:00	2012-07-11 18:00	2012-08-08 06:00	2012-07-11 18:00	2012-08-08 06:00	2012-07-11 18:00	2012-08-08 06:00		PT_Normal					LU2ks8wTSneEFCCH8qqHIQ				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185567	7220	41449	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	12	FIN.COAT FOR MACH./MEC.LIFTING		0	0	880	0	285.714286	285.714286	880	0	0	0				2012-08-08 06:00	2012-09-14 22:00		2012-08-08 06:00	2012-09-14 22:00	2012-08-08 06:00	2012-09-14 22:00	2012-08-08 06:00	2012-09-14 22:00	2012-08-08 06:00	2012-09-14 22:00		PT_Normal					/mzMvpStSQymd9suwKPpYw				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185568	7220	41453	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	13	Foundation Civil Works		0	0	440	0	5957.12259	5957.12259	440	0	0	0				2012-09-14 22:00	2012-10-03 06:00		2012-09-14 22:00	2012-10-03 06:00	2012-09-14 22:00	2012-10-03 06:00	2012-09-14 22:00	2012-10-03 06:00	2012-09-14 22:00	2012-10-03 06:00		PT_Normal					ZlrZ7nwgR5iF8x2eU1G3WA				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185569	7220	41455	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	14	EREC.OF ASSEMBLED MACHINERY		0	0	330	0	37.643889	37.643889	330	0	0	0				2012-10-03 06:00	2012-10-17 00:00		2012-10-03 06:00	2012-10-17 00:00	2012-10-03 06:00	2012-10-17 00:00	2012-10-03 06:00	2012-10-17 00:00	2012-10-03 06:00	2012-10-17 00:00		PT_Normal					2hSzTsN6QbmUaMT/MVguOw				Y	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%R	185570	7220	41456	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	15	INSUL.OF HOT & TRACED EQUIPM.		0	0	330	0	1250	1250	330	0	0	0				2012-10-17 00:00	2012-10-30 18:00		2012-10-17 00:00	2012-10-30 18:00	2012-10-17 00:00	2012-10-30 18:00	2012-10-17 00:00	2012-10-30 18:00	2012-10-17 00:00	2012-10-30 18:00		PT_Normal					HeCwAfjAQsefP2kZn6nxXA				Y	0	0			2012-01-20 16:23	2012-02-06 09:05	admin	admin
+%R	185571	7220	41456	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	16	FIN.COAT FOR MACH./MEC.LIFTING		0	0	330	0	285.714286	285.714286	330	0	0	0				2012-10-30 18:00	2012-11-13 12:00		2012-10-30 18:00	2012-11-13 12:00	2012-10-30 18:00	2012-11-13 12:00	2012-10-30 18:00	2012-11-13 12:00	2012-10-30 18:00	2012-11-13 12:00		PT_Normal					fIQJ/RMNS82K28UBwjxRyA				Y	0	0			2012-01-20 16:23	2012-02-06 09:05	admin	admin
+%R	185572	7220	41463	6205	0	N	N	N	CP_Phys	TT_Task	DT_FixedDUR2	TK_NotStart	27	Commissioning Air system		4956	4956	330	0	6000	6000	330	0	0	0				2013-02-07 00:00	2013-02-20 18:00		2012-07-11 12:00	2012-07-25 06:00	2012-07-11 12:00	2012-07-25 06:00	2012-07-11 12:00	2012-07-25 06:00	2013-02-07 00:00	2013-02-20 18:00		PT_Normal					+NSyCi42SoWJlISKwAn1qA				N	0	0			2012-01-20 16:23	2012-02-06 09:04	admin	admin
+%T	TASKPRED
+%F	task_pred_id	task_id	pred_task_id	proj_id	pred_proj_id	pred_type	lag_hr_cnt	float_path	aref	arls
+%R	297801	185547	185546	7220	7220	PR_FS	0		2012-01-15 18:00	2012-08-11 06:00
+%R	297802	185554	185553	7220	7220	PR_FS	0		2012-12-12 00:00	2012-12-12 00:00
+%R	297803	185561	185560	7220	7220	PR_FS	0		2012-04-11 20:00	2012-04-11 20:00
+%R	297804	185562	185561	7220	7220	PR_FS	0		2012-04-25 14:00	2012-04-25 14:00
+%R	297805	185570	185569	7220	7220	PR_FS	0		2012-10-17 00:00	2012-10-17 00:00
+%R	297806	185571	185570	7220	7220	PR_FS	0		2012-10-30 18:00	2012-10-30 18:00
+%R	297807	185553	185571	7220	7220	PR_FS	0		2012-11-13 12:00	2012-11-13 12:00
+%R	297808	185550	185549	7220	7220	PR_FS	0		2012-03-06 15:00	2012-10-02 03:00
+%R	297809	185572	185552	7220	7220	PR_FS	0		2012-07-11 12:00	2013-02-07 00:00
+%R	297810	185559	185558	7220	7220	PR_FS	0		2012-03-10 18:00	2012-03-10 18:00
+%R	297811	185551	185550	7220	7220	PR_FS	0		2012-03-31 14:00	2012-10-27 02:00
+%R	297813	185563	185562	7220	7220	PR_FS	0		2012-05-23 02:00	2012-05-23 02:00
+%R	297814	185549	185548	7220	7220	PR_FS	0		2012-02-21 16:00	2012-09-18 04:00
+%R	297815	185552	185551	7220	7220	PR_FS	0		2012-05-31 13:00	2012-12-28 01:00
+%R	297816	185555	185554	7220	7220	PR_FS	0		2012-12-26 18:00	2012-12-26 18:00
+%R	297817	185557	185556	7220	7220	PR_FS	0		2012-01-29 12:00	2012-01-29 12:00
+%R	297818	185560	185559	7220	7220	PR_FS	0		2012-03-15 08:00	2012-03-15 08:00
+%R	297819	185565	185564	7220	7220	PR_FS	0		2012-06-27 00:00	2012-06-27 00:00
+%R	297820	185569	185568	7220	7220	PR_FS	0		2012-10-03 06:00	2012-10-03 06:00
+%R	297821	185548	185547	7220	7220	PR_FS	0		2012-02-14 17:00	2012-09-11 05:00
+%R	297822	185564	185563	7220	7220	PR_FS	0		2012-05-30 12:00	2012-05-30 12:00
+%R	297823	185568	185567	7220	7220	PR_FS	0		2012-09-14 22:00	2012-09-14 22:00
+%R	297824	185558	185557	7220	7220	PR_FS	0		2012-02-26 00:00	2012-02-26 00:00
+%R	297825	185566	185565	7220	7220	PR_FS	0		2012-07-11 18:00	2012-07-11 18:00
+%R	297826	185567	185566	7220	7220	PR_FS	0		2012-08-08 06:00	2012-08-08 06:00
+%T	UDFVALUE
+%F	udf_type_id	fk_id	proj_id	udf_date	udf_number	udf_text	udf_code_id
+%R	3120	185546	7220			ENEngmanhour	
+%R	3120	185547	7220			PR01-PR-02Procost-A	
+%R	3120	185548	7220			PR01-PR-02Procost-B	
+%R	3120	185549	7220			PR01-PR-02Procost-C	
+%R	3120	185550	7220			PR01-PR-02Procost-D	
+%R	3120	185551	7220			PR01-PR-02Procost-E	
+%R	3120	185552	7220			PR01-PR-02Procost-F	
+%R	3120	185553	7220			COA100SPCV0120	
+%R	3120	185554	7220			COA100SPCV0130	
+%R	3120	185555	7220			COA100SPCV0140	
+%R	3120	185556	7220			COA11001-PR-02CV1020	
+%R	3120	185557	7220			COA11001-PR-02MC2210	
+%R	3120	185558	7220			COA11001-PR-02RV0210	
+%R	3120	185559	7220			COA11001-PR-02VR0290	
+%R	3120	185560	7220			COA12001-PR-03CV1020	
+%R	3120	185561	7220			COA12001-PR-03MC2210	
+%R	3120	185562	7220			COA12001-PR-03RV0210	
+%R	3120	185563	7220			COA12001-PR-03VR0290	
+%R	3120	185564	7220			COA13001-PR-04CV1020	
+%R	3120	185565	7220			COA13001-PR-04MC2210	
+%R	3120	185566	7220			COA13001-PR-04RV0210	
+%R	3120	185567	7220			COA13001-PR-04VR0290	
+%R	3120	185568	7220			COA14001-PR-05CV1020	
+%R	3120	185569	7220			COA14001-PR-05MC2210	
+%R	3120	185570	7220			COA14001-PR-05RV0210	
+%R	3120	185571	7220			COA14001-PR-05VR0290	
+%R	3120	185572	7220			CMCM000	
+%R	3121	185546	7220			0	
+%R	3121	185547	7220			0	
+%R	3121	185548	7220			0	
+%R	3121	185549	7220			0	
+%R	3121	185550	7220			0	
+%R	3121	185551	7220			0	
+%R	3121	185552	7220			0	
+%R	3121	185553	7220			0	
+%R	3121	185554	7220			0	
+%R	3121	185555	7220			0	
+%R	3121	185556	7220			0	
+%R	3121	185557	7220			0	
+%R	3121	185558	7220			0	
+%R	3121	185559	7220			0	
+%R	3121	185560	7220			0	
+%R	3121	185561	7220			0	
+%R	3121	185562	7220			0	
+%R	3121	185563	7220			0	
+%R	3121	185564	7220			0	
+%R	3121	185565	7220			0	
+%R	3121	185566	7220			0	
+%R	3121	185567	7220			0	
+%R	3121	185568	7220			0	
+%R	3121	185569	7220			0	
+%R	3121	185570	7220			0	
+%R	3121	185571	7220			0	
+%R	3121	185572	7220			0	
+%R	3223	185546	7220			E000EN1000	
+%R	3223	185547	7220			P100PR100A01-PR-02	
+%R	3223	185548	7220			P100PR100B01-PR-02	
+%R	3223	185549	7220			P100PR100C01-PR-02	
+%R	3223	185550	7220			P100PR100D01-PR-02	
+%R	3223	185551	7220			P100PR100E01-PR-02	
+%R	3223	185552	7220			P100PR100F01-PR-02	
+%R	3223	185553	7220			C000CV0120SP	
+%R	3223	185554	7220			C000CV0130SP	
+%R	3223	185555	7220			C000CV0140SP	
+%R	3223	185556	7220			C150CV102001-PR-02	
+%R	3223	185557	7220			C150MC221001-PR-02	
+%R	3223	185558	7220			C150RV021001-PR-02	
+%R	3223	185559	7220			C150VR029001-PR-02	
+%R	3223	185560	7220			C150CV102001-PR-03	
+%R	3223	185561	7220			C150MC221001-PR-03	
+%R	3223	185562	7220			C150RV021001-PR-03	
+%R	3223	185563	7220			C150VR029001-PR-03	
+%R	3223	185564	7220			C150CV102001-PR-04	
+%R	3223	185565	7220			C150MC221001-PR-04	
+%R	3223	185566	7220			C150RV021001-PR-04	
+%R	3223	185567	7220			C150VR029001-PR-04	
+%R	3223	185568	7220			C150CV102001-PR-05	
+%R	3223	185569	7220			C150MC221001-PR-05	
+%R	3223	185570	7220			C150RV021001-PR-05	
+%R	3223	185571	7220			C150VR029001-PR-05	
+%R	3223	185572	7220			M100CM0000	
+%E
